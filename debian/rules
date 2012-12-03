@@ -11,3 +11,7 @@
 
 %:
 	dh $@ 
+override_dh_auto_install:
+	dh_installdirs
+	install debian/kali-findmyhash.desktop $(CURDIR)/debian/findmyhash/usr/share/applications/
+	install findmyhash_v1.1.2.py $(CURDIR)/debian/findmyhash/usr/bin/findmyhash
