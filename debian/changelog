@@ -1,3 +1,9 @@
+findmyhash (1.1.2-1kali3) kali; urgency=low
+
+  * Added watch file (Closes: 0000871)
+
+ -- Devon Kearns <dookie@kali.org>  Wed, 08 Jan 2014 13:40:02 -0700
+
 findmyhash (1.1.2-1kali2) kali; urgency=low
 
   * Removed desktop file
